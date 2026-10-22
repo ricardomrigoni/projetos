@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "Projetos",
+  "short_name": "Projetos",
+  "description": "Central pessoal de projetos, planos, ideias, compras e tarefas.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef1ed",
+  "theme_color": "#22574a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Quadro", "url": "./#quadro", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Lista", "url": "./#lista", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
